@@ -1,0 +1,24 @@
+bool Check(float x)
+{
+	if(x>1000.0)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+int main()
+{
+	float ini;
+	float rate;
+	float Pos = ini + rate * 60.0;
+
+	if(Check(Pos))
+	{
+		Pos+=500;
+	}	
+}
+
+
